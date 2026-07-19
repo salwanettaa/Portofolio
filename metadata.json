@@ -1,6 +1,6 @@
 {
   "name": "Netta's Portfolio",
-  "description": "IT student",
+  "description": "Netta's Portfolio",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": [""]
 }
