@@ -36,6 +36,43 @@ export const projects: Project[] = [
     ]
   },
   {
+    id: 'nebwork',
+    name: 'Nebwork Collaborative Workspace',
+    category: 'Real-Time Collaboration & Low-Latency Sync System',
+    role: 'Lead Full-Stack Developer & WebSocket Architect',
+    purposeHook: 'Engineered "Nebwork," an interactive web-based workspace designed for multi-user visual collaboration. The platform optimizes distributed brainstorming sessions by syncing high-performance drawing vector coordinate streams with persistent workspace boards over bidirectional WebSockets, ensuring seamless real-time interactions under 15ms latency.',
+    bullets: [
+      'Low-Latency State Sync (WebSockets): Built custom bidirectional communication layers over socket channels to handle live mouse cursor traces, visual board additions, and chat logs under 12ms round-trip time (RTT).',
+      'HTML5 Canvas Manipulation: Developed a rich vector-based graphics engine with path-smoothing algorithms, customizable brush tools, and instant group selection matrices to ensure precise rendering across responsive frames.',
+      'Distributed Concurrency & State Locking: Architected a transient state-reconciliation algorithm that resolves real-time concurrent element drawing write-conflicts with locking mechanisms, backed by Redis-like localized memory caches.'
+    ],
+    features: [
+      'Collaborative Vector Canvas & Real-time Mouse Tracking',
+      'Low-Latency Bidirectional WebSocket Pipeline (sub-15ms latency)',
+      'Concurrent Edit Lockouts & Drawing Resolution Logic',
+      'Unified Workspace Dashboard with Active Board Management'
+    ],
+    securityImplementation: [
+      'Enforced origin domain restrictions and validated cryptographically signed authentication cookies on the WebSocket handshake gateway.',
+      'Created a sanitization layer filtering outgoing JSON string coordinate packets to block potential Cross-Site Scripting (XSS) injection vectors.',
+      'Implemented rate-limiting on canvas stroke events to prevent denial-of-service (DoS) flood attempts.'
+    ],
+    techStack: [
+      'React 19', 'TypeScript', 'Node.js', 'Express.js', 'WebSockets', 'HTML5 Canvas', 'Framer Motion', 'Tailwind CSS'
+    ],
+    cybersecurityNote: 'Secured real-time WebSocket coordinate streams by enforcing custom handshake token validation and input sanitization to prevent canvas coordinate injection attacks.',
+    image: 'nebwork',
+    demoUrl: '',
+    githubUrl: 'https://github.com/kada-hackathon',
+    domains: ['web'],
+    images: [
+      '/images/projects/nebwork/image (10).png',
+      '/images/projects/nebwork/image (11).png',
+      '/images/projects/nebwork/image (12).png',
+      '/images/projects/nebwork/image (13).png',
+    ]
+  },
+  {
     id: 'scholarzpath',
     name: 'ScholarzPath Indonesia',
     category: 'Centralized Scholarship Aggregator & Roadmapping Platform',

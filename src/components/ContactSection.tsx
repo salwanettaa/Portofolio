@@ -38,10 +38,10 @@ export default function ContactSection({ onNavigate }: ContactSectionProps) {
             GET IN TOUCH
           </span>
           <h3 className="font-display font-black text-white text-3xl sm:text-4.5xl lg:text-5xl xl:text-6xl tracking-tight leading-none mb-4 uppercase">
-            Let&apos;s Build Securely
+            Let&apos;s Collaborate
           </h3>
           <p className="text-zinc-200 text-[14px] sm:text-[15.5px] lg:text-[17px] xl:text-[18.5px] font-sans leading-relaxed mb-6 font-semibold">
-I am driven by practical problem-solving and always excited to join technical environments that challenge my engineering skills. If you are looking for a dedicated team player to build secure web architectures or discuss emerging security trends, feel free to drop a message!          </p>
+I am driven by practical problem-solving and always excited to join technical environments that challenge my skills. If you are looking for a dedicated team player to build secure web architectures or discuss, feel free to drop a message!          </p>
 
           <div className="bg-black/25 rounded-2xl border-2 border-[#120b16] p-4.5 font-mono text-[13px] lg:text-[14.5px] text-zinc-100 font-bold space-y-2.5">
             <div className="flex items-center gap-2.5">

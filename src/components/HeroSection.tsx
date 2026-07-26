@@ -84,15 +84,6 @@ A full-stack developer dedicated to building secure and resilient digital system
               />
             </div>
 
-            {/* Sticker Badge overlay: AppSec Auditor style */}
-            <div className="absolute top-3 -right-12 bg-white border border-[#fb588f] text-[#fb588f] font-display italic text-[11px] lg:text-[12px] font-black px-3.5 py-1.5 rounded-full shadow-md transform rotate-[10deg] hover:scale-105 transition-transform cursor-default select-none">
-              AppSec Auditor
-            </div>
-            
-            {/* Sticker Badge overlay: Full-Stack Dev style */}
-            <div className="absolute bottom-5 -left-10 bg-white border border-[#fb588f] text-[#fb588f] font-display italic text-[11px] lg:text-[12px] font-black px-3.5 py-1.5 rounded-full shadow-md transform rotate-[-8deg] hover:scale-105 transition-transform cursor-default select-none">
-              Full-Stack Dev
-            </div>
           </motion.div>
         </div>
 
