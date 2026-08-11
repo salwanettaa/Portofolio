@@ -36,42 +36,41 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: 'nebwork',
-    name: 'Nebwork Collaborative Workspace',
-    category: 'Real-Time Collaboration & Low-Latency Sync System',
-    role: 'Lead Full-Stack Developer & WebSocket Architect',
-    purposeHook: 'Engineered "Nebwork," an interactive web-based workspace designed for multi-user visual collaboration. The platform optimizes distributed brainstorming sessions by syncing high-performance drawing vector coordinate streams with persistent workspace boards over bidirectional WebSockets, ensuring seamless real-time interactions under 15ms latency.',
-    bullets: [
-      'Low-Latency State Sync (WebSockets): Built custom bidirectional communication layers over socket channels to handle live mouse cursor traces, visual board additions, and chat logs under 12ms round-trip time (RTT).',
-      'HTML5 Canvas Manipulation: Developed a rich vector-based graphics engine with path-smoothing algorithms, customizable brush tools, and instant group selection matrices to ensure precise rendering across responsive frames.',
-      'Distributed Concurrency & State Locking: Architected a transient state-reconciliation algorithm that resolves real-time concurrent element drawing write-conflicts with locking mechanisms, backed by Redis-like localized memory caches.'
-    ],
-    features: [
-      'Collaborative Vector Canvas & Real-time Mouse Tracking',
-      'Low-Latency Bidirectional WebSocket Pipeline (sub-15ms latency)',
-      'Concurrent Edit Lockouts & Drawing Resolution Logic',
-      'Unified Workspace Dashboard with Active Board Management'
-    ],
-    securityImplementation: [
-      'Enforced origin domain restrictions and validated cryptographically signed authentication cookies on the WebSocket handshake gateway.',
-      'Created a sanitization layer filtering outgoing JSON string coordinate packets to block potential Cross-Site Scripting (XSS) injection vectors.',
-      'Implemented rate-limiting on canvas stroke events to prevent denial-of-service (DoS) flood attempts.'
-    ],
-    techStack: [
-      'React 19', 'TypeScript', 'Node.js', 'Express.js', 'WebSockets', 'HTML5 Canvas', 'Framer Motion', 'Tailwind CSS'
-    ],
-    cybersecurityNote: 'Secured real-time WebSocket coordinate streams by enforcing custom handshake token validation and input sanitization to prevent canvas coordinate injection attacks.',
-    image: 'nebwork',
-    demoUrl: '',
-    githubUrl: 'https://github.com/kada-hackathon',
-    domains: ['web'],
-    images: [
-      '/images/projects/nebwork/image (10).png',
-      '/images/projects/nebwork/image (11).png',
-      '/images/projects/nebwork/image (12).png',
-      '/images/projects/nebwork/image (13).png',
-    ]
-  },
+  id: 'nebwork',
+  name: 'Nebwork Knowledge Platform',
+  category: 'Enterprise Knowledge Management & Retention System',
+  role: 'Full-Stack Developer',
+  purposeHook: 'An interactive web-based knowledge management platform designed to capture, preserve, and retrieve institutional knowledge. The platform optimizes team onboarding and process retention by centralizing work logs, rich-text documentation, and AI-assisted search across distributed teams.',
+  bullets: [
+    'Interactive Work Log & Rich Text Engine: Developed a full-featured blog and work log management module using Tiptap Editor, supporting rich media handling, version history, and dynamic content tagging for seamless discovery.',
+    'RESTful API & Auth Architecture: Designed secure Express.js REST endpoints integrated with MongoDB, enforcing JWT-based authentication, protected routes, and granular role-based access control (RBAC).',
+    'AI-Powered Knowledge Retrieval: Integrated an intelligent AI chatbot interface to streamline document search and automate knowledge retrieval across archived institutional assets.'
+  ],
+  features: [
+    'Interactive Work Log & Tiptap Rich Text Editor',
+    'AI-Powered Chatbot & Intelligent Search Retrieval',
+    'JWT Authentication & Role-Based Access Control (RBAC)',
+  ],
+  securityImplementation: [
+    'Implemented JWT authentication with protected API routing under /api/auth and /api/admin namespaces.',
+    'Enforced strict input validation and DOM sanitation using DOMPurify to mitigate Cross-Site Scripting (XSS) in rich-text content.',
+    'Secured data persistence layer and RESTful endpoints using token-based session management and environment variable isolation.'
+  ],
+  techStack: [
+    'React 18', 'Vite', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'shadcn/ui', 'Tiptap'
+  ],
+  cybersecurityNote: 'Secured administrative endpoints and work log submissions using JWT token verification and client-side sanitization to prevent XSS payloads in user-generated content.',
+  image: 'nebwork',
+  demoUrl: 'https://nebwork.app',
+  githubUrl: 'https://github.com/kada-hackathon',
+  domains: ['web'],
+  images: [
+    '/images/projects/nebwork/image (10).png',
+    '/images/projects/nebwork/image (11).png',
+    '/images/projects/nebwork/image (12).png',
+    '/images/projects/nebwork/image (13).png',
+  ]
+},
   {
     id: 'scholarzpath',
     name: 'ScholarzPath Indonesia',
