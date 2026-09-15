@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Mail, Linkedin, Github, MessageSquare, Terminal, ArrowUp, FileText } from 'lucide-react';
+import { Mail, Linkedin, Github, Terminal, ArrowUp, FileText } from 'lucide-react';
 
 interface ContactSectionProps {
   onNavigate: (index: number) => void;
@@ -114,18 +114,7 @@ I am driven by practical problem-solving and always excited to join technical en
                 <span className="font-mono text-[11px] lg:text-[12.5px] text-zinc-100 group-hover:text-[#fb588f] font-bold">/salwanettaa</span>
               </a>
 
-              <a 
-                href="https://wa.me/6285183149774" // direct placeholder WA connection
-                target="_blank" 
-                rel="noreferrer"
-                className="flex items-center justify-between p-4 rounded-2xl border border-[#fb588f]/10 bg-[#fb588f]/5 hover:bg-[#fb588f] hover:text-white hover:border-[#fb588f] group transition-all duration-200 text-left"
-              >
-                <div className="flex items-center gap-3">
-                  <MessageSquare className="w-4.5 h-4.5 text-zinc-100 group-hover:text-white" />
-                  <span className="font-sans font-extrabold text-sm lg:text-base tracking-wide text-[#fb588f] group-hover:text-white">Shoot WhatsApp Ping</span>
-                </div>
-                <span className="font-mono text-[11px] lg:text-[12.5px] text-white group-hover:text-zinc-100 font-bold">Immediate response</span>
-              </a>
+
             </div>
 
             {/* Small secure terminal indicator logo */}

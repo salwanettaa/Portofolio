@@ -95,7 +95,7 @@ A full-stack developer dedicated to building secure and resilient digital system
           <div className="flex items-center gap-6">
             <span className="text-[#fb588f] font-extrabold">CYBER SECURITY &amp; WEB SYSTEMS</span>
             <span className="text-zinc-400">|</span>
-            <span className="text-yellow-400 font-extrabold">GPA 3.89</span>
+            <span className="text-yellow-400 font-extrabold">GPA 3.87</span>
           </div>
           <button 
             onClick={() => onNavigate(1)} 
